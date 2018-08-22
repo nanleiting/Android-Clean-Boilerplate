@@ -15,6 +15,7 @@ public interface WelcomeingInteractor extends Interactor{
    interface Callback{
        void onMessageR(String message);
        void onFailed(String error);
+       void onFaileds(String error);
    }
 
 }
